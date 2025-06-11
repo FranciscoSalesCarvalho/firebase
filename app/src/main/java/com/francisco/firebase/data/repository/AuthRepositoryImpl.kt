@@ -2,10 +2,10 @@ package com.francisco.firebase.data.repository
 
 import com.francisco.firebase.domain.repository.AuthRepository
 import com.francisco.firebase.domain.repository.Resource
+import com.francisco.firebase.utils.await
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.UserProfileChangeRequest
-import kotlinx.coroutines.tasks.await
 
 class AuthRepositoryImpl(
     private val firebaseAuth: FirebaseAuth
