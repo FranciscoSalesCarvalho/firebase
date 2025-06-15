@@ -1,6 +1,8 @@
-package com.francisco.firebase.domain.repository
+package com.francisco.firebase.data.repository
 
 import com.francisco.firebase.data.model.Produto
+import com.francisco.firebase.domain.repository.FirestoreRepository
+import com.francisco.firebase.domain.repository.Resource
 import com.francisco.firebase.utils.await
 import com.google.firebase.firestore.CollectionReference
 import com.google.firebase.firestore.DocumentReference
