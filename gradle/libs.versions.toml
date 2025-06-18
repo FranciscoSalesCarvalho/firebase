@@ -2,6 +2,7 @@
 agp = "8.10.1"
 coilCompose = "2.6.0"
 firebaseBom = "33.15.0"
+firebaseMessagingKtx = "24.1.1"
 firebaseStorage = "21.0.2"
 firebaseUiAuth = "9.0.0"
 kotlin = "2.1.20"
@@ -20,6 +21,7 @@ coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coilCompose"
 firebase-analytics = { module = "com.google.firebase:firebase-analytics" }
 firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
 firebase-firestore-ktx = { module = "com.google.firebase:firebase-firestore-ktx" }
+firebase-messaging-ktx = { module = "com.google.firebase:firebase-messaging-ktx", version.ref = "firebaseMessagingKtx" }
 firebase-storage = { module = "com.google.firebase:firebase-storage-ktx", version.ref = "firebaseStorage" }
 firebase-ui-auth = { module = "com.firebaseui:firebase-ui-auth", version.ref = "firebaseUiAuth" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }

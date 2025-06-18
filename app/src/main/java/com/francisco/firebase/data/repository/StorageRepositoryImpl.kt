@@ -53,7 +53,7 @@ class StorageRepositoryImpl(
         return try {
             withContext(Dispatchers.IO) {
                 context.assets.open(assetFileName).use { inputStream ->
-                    val effectiveFileName = targetFileNameInStorage ?: assetFileName // Use asset name if target name not given
+                    val effectiveFileName = targetFileNameInStorage ?: assetFileName
                     val fileRef: StorageReference = storage.reference.child(storagePath).child(effectiveFileName)
 
                     val uploadTask: UploadTask = fileRef.putStream(inputStream)
